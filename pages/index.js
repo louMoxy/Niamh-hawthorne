@@ -424,7 +424,7 @@ export default function Portfolio() {
                 Recently, I have been using my camera skills to create more travel-focused videos for social media platforms. This has helped me to improve my script writing, filming, and editing.
               </p>
               <p className="text-[#8b7355] text-lg leading-relaxed">
-                The cameras I have been using to capture this content are the iPhone 15 Pro Max, GoPro Hero12 and the Nikon Zfc/Smart CrossFit's Osmo Pocket 3.
+                                 The cameras I have been using to capture this content are the iPhone 15 Pro Max, GoPro Hero12 and the Nikon Zfc/Smart CrossFit&apos;s Osmo Pocket 3.
               </p>
             </div>
             
