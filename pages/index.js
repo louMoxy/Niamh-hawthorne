@@ -127,7 +127,7 @@ export default function Portfolio() {
     
     const formData = new FormData(e.target);
     
-    fetch("/", {
+    fetch("/__forms.html", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString()
@@ -473,7 +473,7 @@ export default function Portfolio() {
           </h2>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-                         <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleSubmit} className="space-y-8">
+                         <form name="contact" onSubmit={handleSubmit} className="space-y-8">
                <input type="hidden" name="form-name" value="contact" />
                <input type="hidden" name="bot-field" />
                
