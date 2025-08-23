@@ -18,96 +18,95 @@ export default function Portfolio() {
       youtubeLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
-      title: "Pokémon TCG: Crown Zenith",
+      title: "Scarlett and Violet Obsidian Flames",
       imageSrc: "/images/pokemon-2.png",
-      youtubeLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      youtubeLink: "https://www.youtube.com/watch?v=4EDW4aCZYAQ "
     },
     {
-      title: "Pokémon TCG: Lost Origin",
+      title: "",
       imageSrc: "/images/pokemon-3.png",
-      youtubeLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
-      title: "Pokémon TCG: Brilliant Stars",
+      title: "Scarlett and Violet Paradox Rift",
       imageSrc: "/images/pokemon-4.png",
-      youtubeLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      youtubeLink: "https://www.youtube.com/watch?v=zn5ojMYJ8SQ"
     },
     {
-      title: "Pokémon TCG: Fusion Strike",
+      title: "",
       imageSrc: "/images/pokemon-5.png",
-      youtubeLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
-      title: "Pokémon TCG: Evolving Skies",
+      title: "Pokémon TCG: Scarlet Violet — Paldea Evolved",
       imageSrc: "/images/pokemon-6.png",
-      youtubeLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      youtubeLink: "https://youtu.be/sBh3RzQGMwM"
     },
     {
-      title: "Pokémon TCG: Chilling Reign",
+      title: "",
       imageSrc: "/images/pokemon-7.png",
-      youtubeLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
-      title: "Pokémon TCG: Battle Styles",
+      title: "Stella Crown",
       imageSrc: "/images/pokemon-8.png",
-      youtubeLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      youtubeLink: "https://youtu.be/53nld1z7Da4"
     }
   ];
 
   // WB Games Projects Array
   const wbGamesProjects = [
     {
-      title: "Hogwarts Legacy",
-      imageSrc: "/images/wb-hogwarts-legacy.jpg",
-      youtubeLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      title: "Hogwarts Legacy UK trailer",
+      imageSrc: "/images/hog1.png",
+      youtubeLink: "https://www.youtube.com/watch?v=Myuuq5gRV2g"
     },
     {
-      title: "Mortal Kombat 1",
-      description: "Social media and TV advertising",
-      imageSrc: "/images/wb-mortal-kombat-1.jpg",
-      youtubeLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      title: "Hogwarts Legacy Spanish trailer",
+      imageSrc: "/images/hog2.png",
+      youtubeLink: "https://www.youtube.com/watch?v=S6GTl_vPRvU"
     },
     {
-      title: "Suicide Squad: Kill the Justice League",
-      description: "Cinema and digital platform campaigns",
-      imageSrc: "/images/wb-suicide-squad.jpg",
-      youtubeLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      title: "Hogwarts Legacy German trailer",
+      imageSrc: "/images/hog3.png",
+      youtubeLink: "https://www.youtube.com/watch?v=L_E9soBduT0"
     },
     {
-      title: "Gotham Knights",
-      description: "YouTube and Meta advertising",
-      imageSrc: "/images/wb-gotham-knights.jpg",
-      youtubeLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      title: "Multiversus German trailer",
+      imageSrc: "/images/trailer2.png",
+      youtubeLink: "https://www.youtube.com/watch?v=HWSmZobeDDk"
     },
     {
-      title: "MultiVersus",
-      description: "TikTok and social media content",
-      imageSrc: "/images/wb-multiversus.jpg",
-      youtubeLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      title: "Multiversus UK trailer",
+      imageSrc: "/images/multi.png",
+      youtubeLink: "https://www.youtube.com/watch?v=DSsRonuSTx4 "
     },
     {
-      title: "LEGO Star Wars: The Skywalker Saga",
-      description: "Family-friendly advertising localization",
-      imageSrc: "/images/wb-lego-star-wars.jpg",
-      youtubeLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      title: "Suicide Squad German trailer",
+      imageSrc: "/images/sucidide.png",
+      youtubeLink: "https://www.youtube.com/watch?v=4KIp9346AcQ"
     },
     {
-      title: "Back 4 Blood",
-      description: "Horror game advertising campaign",
-      imageSrc: "/images/wb-back-4-blood.jpg",
-      youtubeLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      title: "Suicide Squad French trailer",
+      imageSrc: "/images/trailer3.png",
+      youtubeLink: "https://www.youtube.com/watch?v=a8o2kxIEsAI"
     },
     {
-      title: "Injustice 2",
-      description: "Fighting game promotional content",
-      imageSrc: "/images/wb-injustice-2.jpg",
-      youtubeLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      title: "Mortal Kombat UK trailer",
+      imageSrc: "/images/mortal.png",
+      youtubeLink: "https://www.youtube.com/watch?v=lBYvt1_t6Q4"
     },
     {
-      title: "Batman: Arkham Knight",
-      description: "Action-adventure game marketing",
-      imageSrc: "/images/wb-batman-arkham.jpg",
-      youtubeLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      title: "Gotham Knights UK trailer ",
+      imageSrc: "/images/goth-2.png",
+      youtubeLink: "https://www.youtube.com/watch?v=Qc_OK0I3IXM "
+    },
+    {
+      title: "Gotham Knights Spanish trailer ",
+      imageSrc: "/images/goth-1.png",
+      youtubeLink: "https://www.youtube.com/watch?v=dT4PMb5DbRo"
+    },
+    {
+      title: "Back 4 Blood UK trailer",
+      imageSrc: "/images/Back4blood-1.png",
+      youtubeLink: "https://www.youtube.com/watch?v=LPhrgem_-bQ"
     }
   ];
 
@@ -137,6 +136,7 @@ export default function Portfolio() {
         alert("Thank you for your message! I'll get back to you soon.");
         // Reset form
         e.target.reset();
+        setFormData({ fullName: '', email: '', message: '' });
       })
       .catch(error => {
         console.error('Error:', error);
@@ -303,9 +303,15 @@ export default function Portfolio() {
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="order-2 lg:order-1">
-              <div className="bg-[#4a4a4a] rounded-lg overflow-hidden shadow-lg aspect-[3/4] relative">
-                <Image src="/images/niamh-hawthorne-bio.jpg" alt="Niamh Hawthorne" fill objectFit="cover" />
-              </div>
+                             <div className="bg-[#4a4a4a] rounded-lg overflow-hidden shadow-lg aspect-[3/4] relative">
+                 <Image 
+                   src="/images/niamh-hawthorne-bio.jpg" 
+                   alt="Niamh Hawthorne" 
+                   fill 
+                   sizes="(max-width: 1024px) 100vw, 50vw"
+                   style={{ objectFit: "cover" }}
+                 />
+               </div>
             </div>
             
             <div className="order-1 lg:order-2 space-y-6">
@@ -342,29 +348,32 @@ export default function Portfolio() {
           </div>
           
                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-             {pokemonProjects.map((project, i) => (
-               <div key={i} className="rounded-lg overflow-hidden shadow-lg aspect-video relative group cursor-pointer">
-                 <Image 
-                   src={project.imageSrc} 
-                   alt={project.title}
-                   fill
-                   className="object-cover transition-transform duration-300 group-hover:scale-105"
-                 />
-                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                   <div className="text-center text-white">
-                     <h3 className="text-lg font-semibold mb-2">{project.title}</h3>
-                     <a 
-                       href={project.youtubeLink}
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       className="inline-block text-white hover:text-[#e8d5c4] transition-colors font-medium text-sm underline"
-                     >
-                       View trailer
-                     </a>
-                   </div>
-                 </div>
-               </div>
-             ))}
+                           {pokemonProjects.map((project, i) => (
+                <div key={i} className={`rounded-lg overflow-hidden shadow-lg aspect-video relative ${project.youtubeLink ? 'group cursor-pointer' : ''}`}>
+                                     <Image 
+                     src={project.imageSrc} 
+                     alt={project.title}
+                     fill
+                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                     className={`object-cover transition-transform duration-300 ${project.youtubeLink ? 'group-hover:scale-105' : ''}`}
+                   />
+                  {project.youtubeLink && (
+                    <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                      <div className="text-center text-white">
+                        <h3 className="text-lg font-semibold mb-2">{project.title}</h3>
+                        <a 
+                          href={project.youtubeLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-block text-white hover:text-[#e8d5c4] transition-colors font-medium text-sm underline"
+                        >
+                          View trailer
+                        </a>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              ))}
            </div>
         </div>
       </section>
@@ -385,12 +394,13 @@ export default function Portfolio() {
                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
              {wbGamesProjects.map((project, i) => (
                <div key={i} className="rounded-lg overflow-hidden shadow-lg aspect-video relative group cursor-pointer">
-                 <Image 
-                   src={project.imageSrc} 
-                   alt={project.title}
-                   fill
-                   className="object-cover transition-transform duration-300 group-hover:scale-105"
-                 />
+                                   <Image 
+                    src={project.imageSrc} 
+                    alt={project.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                    <div className="text-center text-white">
                      <h3 className="text-lg font-semibold mb-2">{project.title}</h3>
@@ -418,27 +428,38 @@ export default function Portfolio() {
             Social Media Travel Content
           </h2>
           
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <div className="space-y-6">
               <p className="text-[#8b7355] text-lg leading-relaxed">
                 Recently, I have been using my camera skills to create more travel-focused videos for social media platforms. This has helped me to improve my script writing, filming, and editing.
               </p>
-              <p className="text-[#8b7355] text-lg leading-relaxed">
+              <p className="text-[#8b7355] text-lg leading-relaxed mb-16">
                                  The cameras I have been using to capture this content are the iPhone 15 Pro Max, GoPro Hero12 and the Nikon Zfc/Smart CrossFit&apos;s Osmo Pocket 3.
               </p>
+              
+              <div className="rounded-lg overflow-hidden shadow-lg aspect-[4/3]">
+                <video 
+                  className="w-full h-full object-cover"
+                  controls
+                  muted
+                  loop
+                >
+                  <source src="/clips/japan-2.mov" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
             </div>
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div className="bg-gradient-to-br from-green-600 to-blue-600 rounded-lg overflow-hidden shadow-lg aspect-[3/4]">
-                <div className="w-full h-full flex items-center justify-center">
-                  <p className="text-white text-center font-semibold">Travel Content 1</p>
-                </div>
-              </div>
-              <div className="bg-gradient-to-br from-yellow-600 to-green-600 rounded-lg overflow-hidden shadow-lg aspect-[3/4]">
-                <div className="w-full h-full flex items-center justify-center">
-                  <p className="text-white text-center font-semibold">Travel Content 2</p>
-                </div>
-              </div>
+            <div className="rounded-lg overflow-hidden shadow-lg aspect-[3/4]">
+              <video 
+                className="w-full h-full object-cover"
+                controls
+                muted
+                loop
+              >
+                <source src="/clips/japan-1.mov" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </div>
@@ -452,51 +473,53 @@ export default function Portfolio() {
           </h2>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-            <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit} className="space-y-8">
-              <input type="hidden" name="form-name" value="contact" />
-              <div>
-                <input
-                  type="text"
-                  name="fullName"
-                  placeholder="Full Name"
-                  value={formData.fullName}
-                  onChange={handleInputChange}
-                  className="w-full px-6 py-4 bg-[#d4c1a8] text-[#8b7355] placeholder-[#a08969] rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-[#8b7355]"
-                  required
-                />
-              </div>
-              
-              <div>
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Email"
-                  value={formData.email}
-                  onChange={handleInputChange}
-                  className="w-full px-6 py-4 bg-[#d4c1a8] text-[#8b7355] placeholder-[#a08969] rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-[#8b7355]"
-                  required
-                />
-              </div>
-              
-              <div>
-                <textarea
-                  name="message"
-                  placeholder="Message"
-                  rows={6}
-                  value={formData.message}
-                  onChange={handleInputChange}
-                  className="w-full px-6 py-4 bg-[#d4c1a8] text-[#8b7355] placeholder-[#a08969] rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-[#8b7355] resize-none"
-                  required
-                />
-              </div>
-              
-              <button
-                type="submit"
-                className="w-full py-4 bg-[#8b7355] text-[#e8d5c4] rounded-lg font-semibold tracking-wide hover:bg-[#7a6349] transition-colors"
-              >
-                Send Message
-              </button>
-            </form>
+                         <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleSubmit} className="space-y-8">
+               <input type="hidden" name="form-name" value="contact" />
+               <input type="hidden" name="bot-field" />
+               
+               <div>
+                 <input
+                   type="text"
+                   name="fullName"
+                   placeholder="Full Name"
+                   value={formData.fullName}
+                   onChange={handleInputChange}
+                   className="w-full px-6 py-4 bg-[#d4c1a8] text-[#8b7355] placeholder-[#a08969] rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-[#8b7355]"
+                   required
+                 />
+               </div>
+               
+               <div>
+                 <input
+                   type="email"
+                   name="email"
+                   placeholder="Email"
+                   value={formData.email}
+                   onChange={handleInputChange}
+                   className="w-full px-6 py-4 bg-[#d4c1a8] text-[#8b7355] placeholder-[#a08969] rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-[#8b7355]"
+                   required
+                 />
+               </div>
+               
+               <div>
+                 <textarea
+                   name="message"
+                   placeholder="Message"
+                   rows={6}
+                   value={formData.message}
+                   onChange={handleInputChange}
+                   className="w-full px-6 py-4 bg-[#d4c1a8] text-[#8b7355] placeholder-[#a08969] rounded-lg border-none focus:outline-none focus:ring-2 focus:ring-[#8b7355] resize-none"
+                   required
+                 />
+               </div>
+               
+               <button
+                 type="submit"
+                 className="w-full py-4 bg-[#8b7355] text-[#e8d5c4] rounded-lg font-semibold tracking-wide hover:bg-[#7a6349] transition-colors"
+               >
+                 Send Message
+               </button>
+             </form>
             
             <div className="lg:pl-8">
               <div className="space-y-6">
