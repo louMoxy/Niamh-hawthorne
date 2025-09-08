@@ -48,6 +48,11 @@ export default function Portfolio() {
       title: "Stella Crown",
       imageSrc: "/images/pokemon-8.png",
       youtubeLink: "https://youtu.be/53nld1z7Da4"
+    },
+    {
+      title: "Come Play At Your Local Pokémon League",
+      imageSrc: "/images/pokemon-9.jpg",
+      youtubeLink: "https://www.youtube.com/watch?v=QUoydT7CMik"
     }
   ];
 
@@ -107,6 +112,11 @@ export default function Portfolio() {
       title: "Back 4 Blood UK trailer",
       imageSrc: "/images/Back4blood-1.png",
       youtubeLink: "https://www.youtube.com/watch?v=LPhrgem_-bQ"
+    },
+    {
+      title: "Mortal Kombat 1",
+      imageSrc: "/images/Mortal-Kombat-1.jpg",
+      youtubeLink: "https://www.youtube.com/watch?v=Drnx1E-fw6k"
     }
   ];
 
