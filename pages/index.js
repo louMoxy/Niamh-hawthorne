@@ -437,17 +437,17 @@ export default function Portfolio() {
           <h2 className="text-[#8b7355] text-4xl md:text-5xl font-light mb-16 text-center">
             Social Media Travel Content
           </h2>
-          
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-            <div className="space-y-6">
-              <p className="text-[#8b7355] text-lg leading-relaxed">
+          <p className="text-[#8b7355] text-lg leading-relaxed">
                 Recently, I have been using my camera skills to create more travel-focused videos for social media platforms. This has helped me to improve my script writing, filming, and editing.
               </p>
               <p className="text-[#8b7355] text-lg leading-relaxed mb-16">
                                  The cameras I have been using to capture this content are the iPhone 15 Pro Max, GoPro Hero12 and the Nikon Zfc/Smart CrossFit&apos;s Osmo Pocket 3.
               </p>
+
+          <div className="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 gap-8 items-start">
+            <div className="space-y-6">
               
-              <div className="rounded-lg overflow-hidden shadow-lg aspect-[4/3]">
+              <div className="rounded-lg overflow-hidden shadow-lg aspect-[16/9]">
                 <video 
                   className="w-full h-full object-cover"
                   controls
@@ -460,7 +460,7 @@ export default function Portfolio() {
               </div>
             </div>
             
-            <div className="rounded-lg overflow-hidden shadow-lg aspect-[3/4]">
+            <div className="rounded-lg overflow-hidden shadow-lg aspect-[5/6] lg:row-span-2">
               <video 
                 className="w-full h-full object-cover"
                 controls
@@ -468,6 +468,18 @@ export default function Portfolio() {
                 loop
               >
                 <source src="/clips/japan-1.mov" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+
+            <div className="rounded-lg overflow-hidden shadow-lg aspect-[16/9] ">
+              <video 
+                className="w-full h-full object-cover"
+                controls
+                muted
+                loop
+              >
+                <source src="/clips/social-video-1.mov" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
