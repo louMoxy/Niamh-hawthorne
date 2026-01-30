@@ -15,7 +15,7 @@ export default function Portfolio() {
     {
       title: "Pokémon TCG: Scarlet & Violet",
       imageSrc: "/images/pokemon-1.png",
-      youtubeLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      youtubeLink: "https://www.youtube.com/watch?v=Z95Wfn9D7os"
     },
     {
       title: "Scarlett and Violet Obsidian Flames",
@@ -312,29 +312,56 @@ export default function Portfolio() {
           </h2>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div className="order-2 lg:order-1">
-                             <div className="bg-[#4a4a4a] rounded-lg overflow-hidden shadow-lg aspect-[3/4] relative">
-                 <Image 
-                   src="/images/niamh-hawthorne-bio.jpg" 
-                   alt="Niamh Hawthorne" 
-                   fill 
-                   sizes="(max-width: 1024px) 100vw, 50vw"
-                   style={{ objectFit: "cover" }}
-                 />
-               </div>
+            <div className="order-2 lg:order-1 grid grid-cols-2 grid-rows-2 gap-4">
+              <div className="bg-[#4a4a4a] rounded-lg overflow-hidden shadow-lg aspect-[3/4] relative">
+                <Image 
+                  src="/images/niamh-hawthorne-bio-1.PNG" 
+                  alt="Niamh Hawthorne" 
+                  fill 
+                  sizes="(max-width: 1024px) 50vw, 25vw"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
+              <div className="bg-[#4a4a4a] rounded-lg overflow-hidden shadow-lg aspect-[3/4] relative">
+                <Image 
+                  src="/images/niamh-hawthorne-bio-2.PNG" 
+                  alt="Niamh Hawthorne" 
+                  fill 
+                  sizes="(max-width: 1024px) 50vw, 25vw"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
+              <div className="bg-[#4a4a4a] rounded-lg overflow-hidden shadow-lg aspect-[3/4] relative">
+                <Image 
+                  src="/images/niamh-hawthorne-bio.jpg" 
+                  alt="Niamh Hawthorne" 
+                  fill 
+                  sizes="(max-width: 1024px) 50vw, 25vw"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
+              <div className="bg-[#4a4a4a] rounded-lg overflow-hidden shadow-lg aspect-[3/4] relative">
+                <Image 
+                  src="/images/niamh-hawthorne-bio-4.JPG" 
+                  alt="Niamh Hawthorne" 
+                  fill 
+                  sizes="(max-width: 1024px) 50vw, 25vw"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
             </div>
             
             <div className="order-1 lg:order-2 space-y-6">
               <p className="text-[#8b7355] text-lg leading-relaxed">
-                I have previously worked to produce localised ads for a myriad of companies, where I oversaw the post-production from start to international delivery for a variety of digital platforms.
+              I have previously worked to produce localised ads for a myriad of companies, where I oversaw the post-production from start to international delivery for a variety of digital platforms.
               </p>
               
               <p className="text-[#8b7355] text-lg leading-relaxed">
-                I also specialising in directing voiceovers for multiple language for the localisation of international ads, which I have continued while freelancing.
+              I have worked in audio recording studios and have been responsible for organising voiceover recordings, including booking the studio, creating the scripts, directing voiceovers for multiple language and overseeing the post production edits.
               </p>
               
               <p className="text-[#8b7355] text-lg leading-relaxed">
-                Recently, I have also been working on travel-based social media content, to help improve my understanding of social media analytics, filming, and editing.
+              I have also worked with athletes and other talent on shoots to produce VTs for Cage Warriors (MMA fighting show).
               </p>
             </div>
           </div>
@@ -434,19 +461,18 @@ export default function Portfolio() {
       {/* Social Media Travel Content */}
       <section id="travel" className="min-h-screen bg-[#c8a882] py-16">
         <div className="max-w-7xl mx-auto px-8">
-          <h2 className="text-[#8b7355] text-4xl md:text-5xl font-light mb-16 text-center">
+          <h2 className="text-[#e8d5c4] text-4xl md:text-5xl font- mb-16 text-center">
             Social Media Travel Content
           </h2>
-          <p className="text-[#8b7355] text-lg leading-relaxed">
-                Recently, I have been using my camera skills to create more travel-focused videos for social media platforms. This has helped me to improve my script writing, filming, and editing.
-              </p>
-              <p className="text-[#8b7355] text-lg leading-relaxed mb-16">
-                                 The cameras I have been using to capture this content are the iPhone 15 Pro Max, GoPro Hero12 and the Nikon Zfc/Smart CrossFit&apos;s Osmo Pocket 3.
+          <p className="text-[#8b7355] text-lg text-center">
+                  While travelling, I have focused on developing my camera skills to create more travel-focused videos for social media platforms. For these projects I have worked on script writing, filming, graphics and editing.
+        </p>
+              <p className="text-[#8b7355] mb-16">
+              The cameras I have been using to capture the content include the iPhone 15 Pro Max, GoPro Hero12 and the DJI Osmo Pocket 3.
               </p>
 
-          <div className="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 gap-8 items-start">
-            <div className="space-y-6">
-              
+          <div className="grid grid-cols-1 grid-rows-2 lg:grid-cols-9 gap-4 items-start">
+            <div className="space-y-13 row-span-2 col-span-4">
               <div className="rounded-lg overflow-hidden shadow-lg aspect-[16/9]">
                 <video 
                   className="w-full h-full object-cover"
@@ -458,31 +484,45 @@ export default function Portfolio() {
                   Your browser does not support the video tag.
                 </video>
               </div>
-            </div>
-            
-            <div className="rounded-lg overflow-hidden shadow-lg aspect-[5/6] lg:row-span-2">
-              <video 
-                className="w-full h-full object-cover"
-                controls
-                muted
-                loop
-              >
-                <source src="/clips/japan-1.mov" type="video/mp4" />
-                Your browser does not support the video tag.
+
+              <div className="rounded-lg overflow-hidden shadow-lg aspect-[16/9] ">
+                  <video 
+                    className="w-full h-full object-cover"
+                    controls
+                    muted
+                    loop
+                  >
+                    <source src="/clips/social-video-1.mov" type="video/mp4" />
+                    Your browser does not support the video tag.
               </video>
+              </div>  
             </div>
 
-            <div className="rounded-lg overflow-hidden shadow-lg aspect-[16/9] ">
+            <div className="space-y-6 row-span-2 col-span-5 grid grid-cols-1 lg:grid-cols-2 grid-rows-1 gap-4">
+              <div className="rounded-lg overflow-hidden shadow-lg aspect-[3/6] col-span-1">
+                <video 
+                  className="w-full h-full object-cover"
+                  controls
+                  muted
+                  loop
+                >
+                  <source src="/clips/japan-1.mov" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-lg aspect-[3/6] col-span-1">
               <video 
                 className="w-full h-full object-cover"
                 controls
                 muted
                 loop
               >
-                <source src="/clips/social-video-1.mov" type="video/mp4" />
+                <source src="/clips/Tiktok-script.MP4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
+            </div>
+
           </div>
         </div>
       </section>
